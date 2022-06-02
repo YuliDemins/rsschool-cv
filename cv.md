@@ -4,7 +4,7 @@
 
 ### My Contact Info:
 
-- **Phone**: +79867268297
+- **Phone**: +7900000000
 - **email**: yudemina@mail.ru
 - **GitHub**: YuliDemins
 

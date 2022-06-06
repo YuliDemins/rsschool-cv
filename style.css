@@ -67,142 +67,135 @@ html{
     color: #2F2F2F;
   }
 
-
-  .wrapper{
-      background-color: rgba(47, 47, 47, .3);
-      width: 100%;
+.wrapper{
+    background-color: rgba(47, 47, 47, .3);
+    width: 100%;
     
+}
 
-  }
+.link{
+    color:white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
 
-  .link{
-      color:white;
-      text-transform: uppercase;
-      display: flex;
-      justify-content: space-around;
-    
-       
-  }
-  
-  .link_about:hover{
-   transform: scale(1.1);
-  }
+.link_about{
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
 
-  .main{
+.link_about:hover{
+    transform: scale(1.1);
+}
+
+.main{
     height: 824px;  
-  display: flex;
-  justify-content: space-around;
-  align-items: center;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
 
-      
-  }
-
-  .main__title{
-      max-width: 28%;
-      height: auto;
-      background: rgba(217, 217, 217, 0.5);
-border-radius: 20px;
-font-weight: 400;
-font-size: 48px;
-line-height: 78px;
-color: #2F2F2F;
-padding: 30px;
-transition: all 0.3s ease;
-
-  }
-  .main__title:hover{
-      transform: scale(1.1);
-  }
-
-  .main__title_hi{
-     color: white; 
-  }
-
-  .main__title_name{
-      font-weight: 700;
-      font-size: 56px;
-      text-transform: uppercase;
-
-  }
-
-  .main__prof{
-    
+.main__title{
     max-width: 28%;
     height: auto;
     background: rgba(217, 217, 217, 0.5);
-border-radius: 20px;
-font-weight: 700;
-      font-size: 48px;
-      line-height: 56px;
-      transition: all 0.3s ease;
-      padding: 30px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 78px;
+    color: #2F2F2F;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
 
-  }
-
-  .main__prof:hover{
+.main__title:hover{
     transform: scale(1.1);
-  }
+}
 
-  .main__prof_front{
-      color: #FFA84B;
-      white-space: nowrap;
-      text-transform: uppercase;
-  }
+.main__title_hi{
+    color: white; 
+}
 
-  .main__prof_dev{
-    
+.main__title_name{
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.main__prof{
+    max-width: 28%;
+    height: auto;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    transition: all 0.3s ease;
+    padding: 30px;
+}
+
+.main__prof:hover{
+    transform: scale(1.1);
+}
+
+.main__prof_front{
+    color: #FFA84B;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.main__prof_dev{
     text-transform: uppercase; 
-  }
+}
 
-  .main__foto{
-      max-height: 400px;
-      transition: all 0.3s ease;
-  }
-  .main__foto:hover{
-      transform: scale(1.1);
-  }
+.main__foto{
+    max-height: 400px;
+    height: auto;
+    transition: all 0.3s ease;
+}
 
-  .info{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      margin-bottom: 80px;
-  }
+.main__foto:hover{
+    transform: scale(1.1);
+}
 
-  .info__personal, .info__expertise{
-      background-color: #F7F7F7;
-      height: 600px;
-      padding: 40px 60px;
-  }
+.info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 80px;
+}
 
-  .info__personal_title, .info__expertise_title{
-color: #FFA84B;
-font-size: 48px;
-line-height: 56px;
-font-weight: 400;
-text-align: center;
-margin-bottom: 73px;
-  }
-
-.info__personal_title-list{
-      font-weight: 700;
-  }
-
-.info__about{
-    background-color: #E2E2E2;
-   
-    height: 600px;
+.info__personal, .info__expertise{
+    background-color: #F7F7F7;
+    height: auto;
     padding: 40px 60px;
 }
 
+.info__personal_title, .info__expertise_title{
+    color: #FFA84B;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 73px;
+}
+
+.info__personal_title-list{
+    font-weight: 700;
+}
+
+.info__about{
+    background-color: #E2E2E2;
+    height: auto;
+    padding: 40px 60px;
+}
 
 .info__personal_list{
-
-font-size: 24px;
-line-height: 48px;
+    font-size: 24px;
+    line-height: 48px;
 }
 
 .info__about_title{
-    
     font-size: 48px;
     line-height: 56px;
     font-weight: 400;
@@ -211,9 +204,10 @@ line-height: 48px;
 }
 
 .info__expertise_list{
-
     vertical-align: middle;
     margin-bottom: 10px;
+    max-width: 50%;
+    height: auto;
 }
   
 .resume{
@@ -222,7 +216,6 @@ line-height: 48px;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     gap: 3%;
-    
 }
 
 .skills, .education, .languages{
@@ -232,7 +225,6 @@ line-height: 48px;
     padding-top: 23px;
     padding-left: 40px;
     padding-right: 40px;
-    box-shadow: 1px #2F2F2F;
     margin-bottom: 70px;
 }
 
@@ -242,17 +234,16 @@ line-height: 48px;
     font-weight: 400;
     position: relative;
     margin-bottom: 66px;
-    
 }
 
 .skills__title::before{
-        content: '';
-        position: absolute;
-        background-image: url(./image/icon4.png);
-        top: 0;
-        right: 0;
-        width: 50px;
-        height: 50px;
+    content: '';
+    position: absolute;
+    background-image: url(./image/icon4.png);
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -266,6 +257,7 @@ line-height: 48px;
     width: 52px;
     height: 50px;
 }
+
 .languages__title::before{
     content: '';
     position: absolute;
@@ -284,26 +276,23 @@ line-height: 48px;
 
 .skills__list-item{
     display: block;
-    position: absolute;
-   
-    
+    position: absolute;  
 }
 
 .skills__img{
-    margin-top: 46px;
-    
+    margin-top: 46px; 
 }
 
 .education__list{
-    position: relative;
-    
+    position: relative; 
 }
+
 .education__list-item{
     position: relative;
     margin-bottom: 80px;
-    margin-left: 50px;
-    
+    margin-left: 50px;  
 }
+
 .education__list::after{
     content: '';
     position: absolute;
@@ -333,19 +322,16 @@ line-height: 48px;
     background: rgba(33, 33, 32, 0.9);
     width: 1127px;
     padding: 40px;
-    margin: 0 auto 60px;
-    
-   
+    margin: 0 auto 60px; 
 }
 
 .projects__title{
-color: #FFA84B;
-font-size: 48px;
-line-height: 56px;
-font-weight: 400;
-text-align: center;
-margin-bottom: 20px;
-
+    color: #FFA84B;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .projects__desc{
@@ -362,24 +348,21 @@ pre{
     line-height: 30px;
 }
 
-
-
-
-  footer{
+footer{
     background-color: rgba(47, 47, 47, .3);;
     height: 100px;
     display: flex;
     justify-content: space-between;
     padding: 25px 0 25px;
-  }
+}
 
-  .social{
-      margin-left: 208px;
-      width: 362px;
-      display: flex;
-      justify-content: space-between;
-  }
+.social{
+    margin-left: 208px;
+    width: 362px;
+    display: flex;
+    justify-content: space-between;
+}
 
-  .logo-rss{
+.logo-rss{
       margin-right: 215px;
-  }
+}

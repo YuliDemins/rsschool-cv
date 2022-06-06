@@ -9,33 +9,28 @@
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
+
 <body>
 
     <header>
-
-        <nav>
-            <div class="wrapper">
-                <ul class="link">
+        <nav class="wrapper">
+            <ul class="link">
                 <li class="link"><a class="link_about" href="#about">about</a></li>
                 <li class="link"><a class="link_about" href="#skills">skills</a></li>
                 <li class="link"><a class="link_about" href="#progects">projects</a></li>
                 <li class="link"><a class="link_about" href="#languages">languages</a></li>
-            </ul>
-            </div>
-           
+            </ul>    
         </nav>
     </header>
 
-
     <main>
         <section class="main">
-        <h1 class="main__title"><span class="main__title_hi">Hi,</span> I am <span class="main__title_name">YULI DEMINS!</span></h1>
-        <img class="main__foto"src="image/foto.png" alt="Foto">
-        <h2 class="main__prof">Junior <span class="main__prof_front">FRONT-END</span> <span class="main__prof_dev">DEVELOPER</span></h2>   
-
+            <h1 class="main__title"><span class="main__title_hi">Hi,</span> I am <span class="main__title_name">YULI DEMINS!</span></h1>
+            <img class="main__foto" src="image/foto.png" alt="Foto">
+            <h2 class="main__prof">Junior <span class="main__prof_front">FRONT-END</span> <span class="main__prof_dev">DEVELOPER</span></h2>   
         </section>
 
-        <section class="info" id="#about">
+        <section class="info">
             <div class="info__personal">
                 <h3 class="info__personal_title">Personal Info</h3>
                 <ul>
@@ -47,7 +42,7 @@
                 </ul>
             </div>
 
-            <div class="info__about">
+            <div class="info__about" id="about">
                 <h3 class="info__about_title">About me</h3>
                 <p>I have good interpersonal skills, am an excellent team worker and I want to get new knowledge and develop new skills. I really want to try interesting projects. I worked an accountant last time.</p>
             </div>
@@ -70,7 +65,7 @@
                 <h3 class="skills__title">Skills</h3>
                 <ul class="skills__ul">
                     <li class="skills__list"><span class="skills__list-item">HTML</span>
-                        <img class="skills__img"src="image/rating4.png" alt="HTML">
+                        <img class="skills__img" src="image/rating4.png" alt="HTML">
                     </li>
                     <li class="skills__list"><span class="skills__list-item">CSS (SASS / SCSS, BEM)</span>
                         <img class="skills__img" src="image/rating4.png" alt="CSS"></li>
@@ -90,7 +85,6 @@
                         <img class="skills__img" src="image/rating4.png" alt="VSC">
                     </li>
                 </ul>
-                
             </div>
 
             <div class="education">
@@ -99,7 +93,6 @@
                     <li class="education__list-item">Higher Education - National Research Lobachevsky State University of Nizhni Novgorod</li>
                     <li class="education__list-item">The Rolling Scopes School «JavaScript/Front-end»</li>
                 </ul>
-                
             </div>
 
             <div class="languages" id="languages">
@@ -108,21 +101,18 @@
                     <li class="languages__list-item">Russian
                         <img src="image/rating5.png" alt="Russian">
                     </li>
-
                     <li class="languages__list-item">English
                         <img src="image/rating3.png" alt="English">
                     </li>
-                </ul>   
-                
+                </ul>    
             </div>
-
 
         </section>
 
         <section class="projects" id="progects">
             <h3 class="projects__title">Projects</h3>
             <p class="projects__desc">Code Example: by clicking the mouse, you can select the number of rating stars then use this number</p>
-            
+
             <pre><code>
                 const ratingItemsList = document.querySelectorAll('.rating__item');
 
@@ -139,18 +129,17 @@
 
         </section>
 
-
 </main>
 
-    <footer>
-        <div class="social">
-            <a href="https://github.com/YuliDemins"><img src="image/github.png" alt="GitHub"></a>
-            <a href="https://t.me/YuliDemins"><img src="image/telegram.png" alt="Telegram"></a>
-            <a href="#"><img src="image/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="image/linkedin.png" alt="linkedin"></a>
-        </div>
-        <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"><img class="logo-rss" src="image/rsschool.png" alt="RS School"></a>
-    </footer>
+<footer>
+    <div class="social">
+        <a href="https://github.com/YuliDemins"><img src="image/github.png" alt="GitHub"></a>
+        <a href="https://t.me/YuliDemins"><img src="image/telegram.png" alt="Telegram"></a>
+        <a href="#"><img src="image/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="image/linkedin.png" alt="linkedin"></a>
+    </div>
+    <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"><img class="logo-rss" src="image/rsschool.png" alt="RS School"></a>
+</footer>
     
 </body>
 </html>

@@ -114,18 +114,17 @@
             <p class="projects__desc">Code Example: by clicking the mouse, you can select the number of rating stars then use this number</p>
 
             <pre><code>
-                const ratingItemsList = document.querySelectorAll('.rating__item');
+const ratingItemsList = document.querySelectorAll('.rating__item');
 
-                const ratingItemsArray = Array.prototype.slice.call(ratingItemsList);
+const ratingItemsArray = Array.prototype.slice.call(ratingItemsList);
                 
-                ratingItemsArray.forEach(item =>
-                    item.addEventListener('click', () => {
-                    const { itemValue } = item.dataset;
-                    item.parentNode.dataset.totalValue = itemValue
-                    console.log(itemValue)
-                })
-                    );  
-            </code></pre>
+ratingItemsArray.forEach(item =>
+    item.addEventListener('click', () => {
+    const { itemValue } = item.dataset;
+    item.parentNode.dataset.totalValue = itemValue
+    console.log(itemValue)
+    })
+);  </code></pre>
 
         </section>
 
@@ -139,8 +138,8 @@
         <a href="#"><img src="image/facebook.png" alt="Facebook"></a>
         <a href="#"><img src="image/linkedin.png" alt="linkedin"></a>
     </div>
-    <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"><img class="logo-rss" src="image/rsschool.png" alt="RS School"></a>
+    <a class="logo-rss" href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"><img src="image/rsschool.png" alt="RS School"></a>
 </footer>
-    
+
 </body>
 </html>

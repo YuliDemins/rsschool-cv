@@ -17,7 +17,7 @@
             <ul class="link">
                 <li class="link"><a class="link_about" href="#about">about</a></li>
                 <li class="link"><a class="link_about" href="#skills">skills</a></li>
-                <li class="link"><a class="link_about" href="#progects">projects</a></li>
+                <li class="link"><a class="link_about" href="#projects">projects</a></li>
                 <li class="link"><a class="link_about" href="#languages">languages</a></li>
             </ul>    
         </nav>
@@ -109,9 +109,14 @@
 
         </section>
 
-        <section class="projects" id="progects">
+        <section class="projects" id="projects">
             <h3 class="projects__title">Projects</h3>
-            <p class="projects__desc">Code Example: by clicking the mouse, you can select the number of rating stars then use this number</p>
+            <ul>
+                <li><a class="projects__item" href="https://github.com/YuliDemins/Checkbox_radio" target="_blank">Checkbox_radio</a></li>
+                <li><a class="projects__item" href="https://github.com/YuliDemins/Rating" target="_blank">Star_rating</a></li>
+                <li><a class="projects__item" href="https://github.com/YuliDemins/rsschool-cv" target="_blank">CV</a></li>
+            </ul>
+            <p class="projects__desc"><span class="projects__desc-examle">Code Example:</span> by clicking the mouse, you can select the number of rating stars then use this number</p>
 
             <pre><code>
 const ratingItemsList = document.querySelectorAll('.rating__item');
@@ -130,7 +135,8 @@ ratingItemsArray.forEach(item =>
 
 </main>
 
-<footer>
+<footer class="wrapper">
+    <div class="container">
     <span>2022</span>
     <div class="social">
         <a href="https://github.com/YuliDemins"><img src="image/github.png" alt="GitHub"></a>
@@ -139,6 +145,7 @@ ratingItemsArray.forEach(item =>
         <a href="#"><img src="image/linkedin.png" alt="linkedin"></a>
     </div>
     <a class="logo-rss" href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv-stage0.md"><img src="image/rsschool.png" alt="RS School"></a>
+    </div>
 </footer>
 
 </body>

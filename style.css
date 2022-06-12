@@ -96,7 +96,7 @@ main {
 }
 
 .main {
-    height: 97vh;
+    height: 800px;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-around;
